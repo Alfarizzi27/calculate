@@ -14,5 +14,3 @@ function bagi(a, b) {
     return a / b
 }
 
-
-console.log(tambah(10, 4));
