@@ -1,16 +1,8 @@
-function tambah(a, b) {
-    return a + b
-}
+const { tambah, kurang, kali, bagi } = require('./calculate')
 
-function kurang(a, b) {
-    return a - b
+module.exports = {
+    tambah,
+    kurang,
+    kali,
+    bagi
 }
-
-function kali(a, b) {
-    return a * b
-}
-
-function bagi(a, b) {
-    return a / b
-}
-
